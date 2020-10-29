@@ -1,0 +1,118 @@
+/* Custom styling for the Financial app */
+body {
+  margin: 0;
+  /*
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    */
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.myheadings {
+  color:#005587; /* red | #005587 */ 
+  font-weight:bold;
+  font-family: 'Lato', Arial, Verdana, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.img_responsive  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+/* table */
+.bbcptable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  /* width: 100%; */
+}
+
+.bbcptable td, .bbcptable th {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+.bbcptable th {
+  height: 40%;
+}
+
+.bbcptable tr:nth-child(even){background-color: #f2f2f2;}
+.bbcptable tr:hover {background-color: #ddd;}
+.bbcptable th {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: left;
+  background-color: #005587;
+  color: white;
+}
+
+
+.myfooter {
+  background:#fafbfd;
+}
+
+/* Footer */
+.footer {
+  background-color: #f6f7fc;
+}
+.footerTitle {
+  color:#005587;
+  font-weight:bold;
+  font-family: "Mukta Malar", Helvetica, sans-serif;
+  /* font-size: 1.875em; */
+}
+
+
+/* CSS for footer navigation bar */
+#ul-footernav {
+  list-style: none;
+  overflow:hidden;
+  background:#ffffff;
+  margin:0;
+  padding:0;
+}
+#ul-footernav li a {
+  text-align:center;
+  font-weight: bold;
+  color:#005587;
+  padding:10px;
+  width:130px;
+}
+
+#ul-footernav li {
+  float:left;
+}
+
+#ul-footernav li:hover {
+  background:#ec1188;
+  color: #ffffff;
+}
+#ul-footernav li:hover a {
+  color: #ffffff;
+}
+#ul-footernav  a {
+  display:block;
+}
+
+#p-navfooter {
+  text-align: center
+}
+
+.footernav_outer {
+  text-align: center;
+}
+
+.footernav_inner {
+  display: inline-block;
+}
