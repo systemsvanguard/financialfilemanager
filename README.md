@@ -1,14 +1,14 @@
 # React Template App for Financial Portal
 A starter React.js web app using React Router, for the Financial Client Portal web app. Enjoy!
 
-Live **Site Demo** ~ [Financial Portal React Template](https://financialfilemanager.openode.io/)
+Live **Site Demo** ~ [Financial Portal React Template](http://financialfilemanager.openode.io/)
 
 ![Financial Portal React Template](http://ryanhunter.ca/images/portfolio/financialreact01.png)
 
 
 ## Steps to Install
 - Run the command below from the command line / terminal / command prompt.
-- GitHub ~ git clone https://github.com/systemsvanguard/financialfilemanager.git 
+- GitHub ~ git clone  https://github.com/systemsvanguard/financialfilemanager.git  
 - cd financialfilemanager
 - ensure your have Node & NPM pre-installed. Run commands 'node --version && npm -v'.
 - npm install.  (This ensures all dependencies are installed).
