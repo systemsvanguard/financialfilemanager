@@ -9,7 +9,7 @@ export default class LatestActivity extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`https://financialfileapi.openode.io/apidb` ,{ params: { _limit: 5 }}  )
+    axios.get(`https://bbcpapi.openode.io/apidb` ,{ params: { _limit: 7 }}  )
       .then(res => {
         const customers = res.data;
         this.setState({ customers });
